@@ -1,7 +1,7 @@
 #Lets Kill Things
-A tool for helping manage combat in a turn based environment. Allowing DM's/GM's to control stats such as AC, HP, and damage taken for a group.
+![logo](https://avatars2.githubusercontent.com/u/12516607?v=3&s=200) 
 
-Below is a bit of general information for starting and running Lets Kill Things. Further information such as our todo list of features, bugs, and the tools we use can be found in the [wiki](https://github.com/lets-kill-things/lkt/wiki).
+A tool for helping manage combat in a turn based environment. Allowing DM's/GM's to control stats such as AC, HP, and damage taken for a group.
 
 ##Table of Contents
 * [Getting Started](#getting-stated)
