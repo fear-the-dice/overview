@@ -1,4 +1,4 @@
-#Lets Kill Things
+#Fear the Dice
 ![logo](https://avatars2.githubusercontent.com/u/12516607?v=3&s=200) 
 
 A tool for helping manage combat in a turn based environment. Allowing DM's/GM's to control stats such as AC, HP, and damage taken for a group.
