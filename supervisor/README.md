@@ -11,24 +11,18 @@ Supervisor manages our various processes for us. If you don't already have it in
     $ easy_install supervisor
     ```
 
-* **Setup:**
-
-    > From your project folter, you are going to have to create a few folders for supervisor to use:
-
-    ```
-    $ mkdir logs
-    $ mkdir tmp
-    ```
-
 * **Use:**
     > Once you have it installed you can go ahead and run supervisor, then feed it some commands:
 
     ```
     $ sudo supervisord -c supervisor/supervisord.conf
     $ supervisorctl
+    mongo                   STOPPED   Not started
     api                     STOPPED   Not started
     web                     STOPPED   Not started
     socket                  STOPPED   Not started
+    supervisor> start mongo
+    mongo: started
     supervisor> start api
     api: started
     supervisor> start socket
