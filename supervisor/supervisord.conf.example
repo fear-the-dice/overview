@@ -43,7 +43,7 @@ priority=2
 autostart=false
 
 [program:auth]
-user=jhann
+user=USERNAME
 command=/Library/Tomcat/bin/catalina.sh run
 priority=2
 stdout_logfile=/var/log/ftd-%(program_name)s.log
