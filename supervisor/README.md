@@ -9,7 +9,16 @@ Supervisor manages our various processes for us. If you don't already have it in
 
     ```
     $ easy_install supervisor
-    ```
+    ```    
+
+* **Setup:**
+
+   Replace *obihann* with your current username
+   
+   ```
+   $ cp supervisor/supervisord.conf.example supervisor/supervisord.conf
+   $ sed -i '' 's/USERNAME/obihann/g' supervisor/supervisord.conf
+   ```
 
 * **Use:**
     > Once you have it installed you can go ahead and run supervisor, then feed it some commands:
