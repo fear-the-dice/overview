@@ -1,3 +1,6 @@
+[![GitHub tag](https://img.shields.io/github/tag/fear-the-dice/overview.svg)](https://github.com/fear-the-dice/overview/tags)
+[![GPL](https://img.shields.io/badge/license-GPLv2-green.svg)](http://www.gnu.org/licenses/gpl-2.0.html)
+
 #Fear the Dice
 ![logo](https://avatars2.githubusercontent.com/u/12516607?v=3&s=200) 
 
