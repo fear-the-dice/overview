@@ -1,0 +1,40 @@
+version: '2'
+
+services:
+  redis:
+    image: redis
+    expose:
+     - "6379"
+  auth:
+    build: ../auth
+    links:
+      - redis:redis
+    ports: 
+      - "3500:3500"
+    env_file: ../auth/.env
+  socket:
+    build: ../socket
+    ports: 
+      - "1347:1347"
+    env_file: ../socket/.env
+  mongo:
+    image: mongo
+    expose:
+     - "27017"
+  mongo_restore:
+    build: ./db
+    links:
+      - mongo:mongo
+  rest:
+    build: ../api
+    links:
+      - mongo:mongo
+      - redis:redis
+    ports:
+      - "3000:3000"
+    env_file: ../api/.env
+  web:
+    build: ../web
+    ports:
+      - "8000:8000"
+      - "8001:8001"
